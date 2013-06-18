@@ -1,0 +1,17 @@
+INSERT INTO driver_fns VALUES(1,"schedule", "", 4, 8,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"yy", "", 4, 9,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"usb_string", "", 3, 3,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"zz", "", 4, 13,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"yww", "", 8, 8,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 1);
+INSERT INTO driver_fns VALUES(1,"writel", "", 5, 11,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 1, 1);
+INSERT INTO driver_fns VALUES(1,"honey", "", 10, 10,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"asm_printk_23", "", 5, 5,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"ioread16", "", 5, 5,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"printk", "", 6, 6,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 1, 0);
+INSERT INTO driver_fns VALUES(1,"request_irq", "", 6, 6,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"main", "", 52, 96,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 1, 1);
+INSERT INTO driver_fns VALUES(1,"readb", "", 4, 4,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 0);
+INSERT INTO driver_fns VALUES(1,"msleep", "", 6, 12,0,0, 0, 0, 0, 0,0,0,0,0,1,0, 0, 1, 1);
+INSERT INTO driver_fns VALUES(1,"ww", "", 8, 8,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 1);
+INSERT INTO driver_fns VALUES(1,"fgfgfgfg", "", 28, 28,0,0, 0, 0, 0, 0,0,0,0,0,0,0, 0, 0, 0);
+INSERT INTO drivers VALUES(1,"0", "0", "",157, 1, 0, "empty_type", "empty_ops", " ",237, 23, "empty_bus_type");

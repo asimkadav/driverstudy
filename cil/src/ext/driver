@@ -1,0 +1,18 @@
+(String.compare c.cname "acpi_pci_driver" = 0) || (String.compare c.cname "ap_driver" = 0) ||
+(String.compare c.cname "audio_driver" = 0) || (String.compare c.cname "ccw_driver" = 0) ||
+(String.compare c.cname "ccwgroup_driver" = 0) || (String.compare c.cname "comedi_driver" = 0) ||
+(String.compare c.cname "cpufreq_driver" = 0) || (String.compare c.cname "cpuidle_driver" = 0) ||
+(String.compare c.cname "css_driver" = 0) || (String.compare c.cname "cx8802_driver" = 0) ||
+(String.compare c.cname "dio_driver" = 0) || (String.compare c.cname "drm_driver" = 0) ||
+(String.compare c.cname "drm_i2c_encoder_driver" = 0) || (String.compare c.cname "dsa_switch_driver" = 0) ||
+(String.compare c.cname "eisa_driver" = 0) || (String.compare c.cname "hc_driver" = 0) ||
+(String.compare c.cname "hid_ll_driver" = 0) || (String.compare c.cname "hpsb_host_driver" = 0) ||
+(String.compare c.cname "i2o_driver" = 0) || (String.compare c.cname "lm_driver" = 0) || (String.compare c.cname "macio_driver" = 0) ||
+(String.compare c.cname "mcp_driver" = 0) || (String.compare c.cname "memstick_driver" = 0) || (String.compare c.cname "mmc_driver" = 0) ||
+(String.compare c.cname "mpt_pci_driver" = 0) || (String.compare c.cname "omap_dss_driver" = 0) || (String.compare c.cname "parport_driver" = 0) ||
+(String.compare c.cname "pcie_port_service_driver" = 0) || (String.compare c.cname "phy_driver" = 0) || (String.compare c.cname "platform_device_driver" = 0) ||
+(String.compare c.cname "pnp_card_driver" = 0) || (String.compare c.cname "ps3_vuart_port_driver" = 0) || (String.compare c.cname "real_driver" = 0) || (String.compare c.cname "sa1111_driver" = 0) ||
+(String.compare c.cname "soundbus_driver" = 0) || (String.compare c.cname "ssb_driver" = 0) || (String.compare c.cname "tc_driver" = 0) ||
+(String.compare c.cname "tifm_driver" = 0) || (String.compare c.cname "ttm_bo_driver" = 0) || (String.compare c.cname "ucb1x00_driver" = 0) || (String.compare c.cname "usbatm_driver" = 0) ||
+(String.compare c.cname "usb_composite_driver" = 0) || (String.compare c.cname "usb_gadget_driver" = 0) || (String.compare c.cname "usb_serial_driver" = 0) ||
+(String.compare c.cname "usbvideo_cb qcm_driver" = 0) || (String.compare c.cname "virtio_driver" = 0) || (String.compare c.cname "vme_driver" = 0) ||
