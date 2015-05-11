@@ -13,8 +13,7 @@ The following software is required to re-run the static analysis on driver sourc
 
   - Run "ocaml -version". It should return 3.08 or higher. Install CIL from here. Download, untar the above file and run: 
   
-  ./configure make
-  make install 
+  ./configure; make; make install 
 
   This will generate the executable cilly in cil/bin/cilly. 
   
