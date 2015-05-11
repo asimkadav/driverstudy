@@ -20,7 +20,7 @@ The following software is required to re-run the static analysis on driver sourc
   
   Ensure this executable is in path. ($PATH) 
   
-  Driver study modifies cilly to introduce a new -dodrivers flag to test drivers for hardware dependence bugs. To test any driver, locate the corresponding Makefile for the driver and add the following lines: CC=cilly --dodrivers EXTRA_CFLAGS+= --save-temps --dodrivers -I myincludes LD=cilly --dodrivers AR=cilly --mode=AR Now build the driver, using the command make. This should show list of hardware dependence bugs and generate a hardened binary. Drivers with multiple object files
+  Driver study modifies cilly to introduce a new -dodrivers flag to test drivers for hardware dependence bugs. To test any driver, locate the corresponding Makefile for the driver and add the following lines: CC=cilly --dodrivers EXTRA_CFLAGS+= --save-temps --dodrivers -I myincludes LD=cilly --dodrivers AR=cilly --mode=AR Now build the driver, using the command make. This should show list of driverstudy results. Drivers with multiple object files
 
 If you want to run this study over drivers that consist of multiple files, like e1000. Add the following lines to your top-level Makefile. For example, drivers/net/e1000/Makfile. CC=cilly --merge --dodrivers EXTRA_CFLAGS+= --save-temps --dodrivers -D HAPPY_MOOD -DCILLY_DONT_COMPILE_AFTER_MERGE -DCILLY_DONT_LINK_AFTER_MERGE -I myincludes LD=cilly --merge --dodrivers AR=cilly --merge --mode=AR These lines run driver study analysis on the combined file. This enables taint propogation across different files in a driver module. Contact
 
