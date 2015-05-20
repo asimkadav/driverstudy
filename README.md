@@ -9,9 +9,9 @@ The following software is required to re-run the static analysis on driver sourc
 
   -- Steps to install CIL
 
-  - Install OCaml from your linux distribution or download from here. Make sure ocaml is in your path. 
+  - Install OCaml from your linux distribution. Make sure ocaml is in your path. 
 
-  - Run "ocaml -version". It should return 3.08 or higher. Install CIL from here. Download, untar the above file and run: 
+  - Run "ocaml -version". It should return 3.08 or higher. Install CIL from HERE (this github). Download, untar the above file and run: 
   
   ./configure; make; make install 
 
